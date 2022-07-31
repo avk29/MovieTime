@@ -1,5 +1,5 @@
 # MovieTime
-A Movie Recommender System built using Machine Learning - [MovieTime (Website Link)](https://movietime-avk.herokuapp.com)
+A Movie Recommender System built using Machine Learning - <a href="https://movietime-avk.herokuapp.com">MovieTime (Website Link)</a>
 
 ## About The Project
 
