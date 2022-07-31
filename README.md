@@ -1,13 +1,14 @@
 # MovieTime
-A Movie Recommender System built using Machine Learning - <a href="https://movietime-avk.herokuapp.com">MovieTime (Website Link)</a>
+MovieTime is a **Content-Based Movie Recommender System** that works on the principles on **Unsupervised Machine Learning.**  
+- <a href="https://movietime-avk.herokuapp.com">MovieTime (Website Link)</a>
 
 ## About The Project
 
-MovieTime is a **Content-Based Movie Recommender System** that works on the principles on **Unsupervised Machine Learning.** 
-<br /><br />
-After the EDA and preprocessing of data, it calculates the **cosine similarities** of a given movie with all the other movies present in the dataset and returns **five** movies that are **most similar**.
+Data of 5000 movies from two separate datasets is **preprocessed** (this also includes **stemming** of text data) and **EDA** is performed. Next, a **Bag of Words NLP model** is used to **vectorize** the text input. 
 
-The **web app** is then built using **Streamlit** and is deployed using **Heroku**.
+The model then uses **cosine similarity** to offer **recommendations**. It calculates the **cosine similarities** of a given movie with all the other movies present in the dataset and returns **five** movies that are **most similar**.
+
+The **TMDB API** is used to fetch the data, **Streamlit** is used to build the **web application**, and **Heroku** is used to deploy it.
 
 <p align="center">
 
@@ -21,6 +22,7 @@ https://user-images.githubusercontent.com/66971874/182031442-0334cab9-d5b3-42cf-
 - Numpy
 - Pandas
 - Scikit Learn
+- Nltk
 - Streamlit
 - Pickle
 
